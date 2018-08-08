@@ -9,7 +9,19 @@
 #import <Foundation/Foundation.h>
 
 @interface DataModel : NSObject
+
+/**
+ 标题
+ */
 @property (nonatomic,copy) NSString * title;
+
+/**
+ 描述文字
+ */
 @property (nonatomic,copy) NSString * descStr;
+
+/**
+ 图片URL
+ */
 @property (nonatomic,copy) NSString * imageHref;
 @end
